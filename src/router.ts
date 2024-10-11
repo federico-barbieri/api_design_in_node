@@ -7,7 +7,7 @@ PRODUCT
 */
 
 router.get("/product", (req, res) => {
-    res.json({message: 'sup'})
+    res.json({message: "sup"})
 })
 router.get("/product/:id", () => {})
 router.put("/product/:id", () => {})
